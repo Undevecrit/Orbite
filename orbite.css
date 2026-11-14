@@ -1375,9 +1375,8 @@ h1, h2, h3 {
 .shop-card .shop-thumb {
   display: block;
   width: calc(100% + 44px);
+  height: auto;
   margin: -22px -22px 4px;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
   border-radius: var(--radius) var(--radius) 0 0;
 }
 
