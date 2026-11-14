@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boutique — Orbite</title>
+<meta name="description" content="Les futurs articles Orbite : dis-nous ceux qui t'intéressent et le prix que tu juges juste.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Orbite">
+<link rel="canonical" href="https://www.orbite.kdns.fr/shop">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M5C9RMTFLY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M5C9RMTFLY');
+</script>
+
+<!-- Open Graph / réseaux sociaux -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Orbite">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:url" content="https://www.orbite.kdns.fr/shop">
+<meta property="og:title" content="Boutique — Orbite">
+<meta property="og:description" content="Les futurs articles Orbite : dis-nous ceux qui t'intéressent et le prix que tu juges juste.">
+<meta property="og:image" content="https://www.orbite.kdns.fr/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Orbite — almanach du ciel">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Boutique — Orbite">
+<meta name="twitter:description" content="Les futurs articles Orbite : dis-nous ceux qui t'intéressent et le prix que tu juges juste.">
+<meta name="twitter:image" content="https://www.orbite.kdns.fr/og-image.png">
+
+<!-- Favicons -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+<meta name="theme-color" content="#0b0e17">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/orbite.css">
+<script src="/maintenance.js"></script>
+</head>
+<body data-page="shop">
+<div id="site-header"></div>
+
+<main id="main">
+  <section class="section" id="shop">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="kicker">Boutique</span>
+          <h1>Ce que tu aimerais voir sur Orbite</h1>
+          <p class="desc">Aucun achat possible pour l'instant : ces articles sont à l'étude. Dis-nous ceux qui te plaisent et le prix que tu trouves juste, on concevra la boutique en fonction.</p>
+        </div>
+      </div>
+
+      <!-- Champ anti-robot : invisible pour les humains -->
+      <input type="text" id="shop-hp" class="sujet-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <div class="shop-grid" id="shop-grid"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<div id="site-chat"></div>
+
+<script src="/data-events.js"></script>
+<script src="/data-actus.js"></script>
+<script src="/data-articles.js"></script>
+<script src="/data-shop.js"></script>
+<script src="/site.js"></script>
+<script src="/page-shop.js"></script>
+</body>
+</html>
