@@ -11,27 +11,35 @@
  */
 const PRODUITS = [
   {
-    id: "tshirt-orbite",
-    titre: "T-shirt Orbite",
-    description: "T-shirt noir en coton bio, logo Orbite brodé sur la poitrine.",
-    image: "/assets/shop/tshirt-orbite.jpg",
-    prixIndicatif: 25,
-    prixMin: 15
+    id: "Poster Andromède",
+    titre: "Poster Andromède",
+    description: "Poster en format A4 la galaxie la plus proche de nous, Andromède",
+    image: "/assets/shop/postandro.jpg",
+    prixIndicatif: 9,
+    prixMin: 7
   },
   {
-    id: "affiche-systeme-solaire",
-    titre: "Affiche du Système solaire",
-    description: "Affiche A2 illustrée des huit planètes à l'échelle des distances.",
-    image: "/assets/shop/affiche-systeme-solaire.jpg",
-    prixIndicatif: 18,
-    prixMin: 10
+    id: "Poster Curiosity",
+    titre: "Poster Curiosity",
+    description: "Poster en format A4 du rover Curiosity qui explore la planète rouge, Mars.",
+    image: "/assets/shop/postcurio.jpg",
+    prixIndicatif: 9,
+    prixMin: 7
   },
   {
-    id: "mug-nebuleuse",
-    titre: "Mug Nébuleuse d'Orion",
-    description: "Mug en céramique avec une photo de M42 qui se révèle à la chaleur.",
-    image: "/assets/shop/mug-nebuleuse.jpg",
-    prixIndicatif: 14,
-    prixMin: 8
-  }
+    id: "Poster Terre",
+    titre: "Poster Terre",
+    description: "Poster en format A4 de notre chère planète, la Terre.",
+    image: "/assets/shop/postterre.jpg",
+    prixIndicatif: 9,
+    prixMin: 7
+  },
+  {
+    id: "Poster Nébuleuse",
+    titre: "Poster Nébuleuse",
+    description: "Poster en format A4 de la nébuleuse du papillon.",
+    image: "/assets/shop/postnebu.jpg",
+    prixIndicatif: 9,
+    prixMin: 7
+  },
 ];
