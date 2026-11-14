@@ -1355,3 +1355,69 @@ h1, h2, h3 {
 @media (max-width: 760px) {
   .promo-banner-inner { padding: 26px 20px; gap: 14px; }
 }
+/* ---------- Boutique (vitrine de vote) ---------- */
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 18px;
+}
+
+.shop-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px;
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.shop-card .shop-thumb {
+  display: block;
+  width: calc(100% + 44px);
+  margin: -22px -22px 4px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.shop-card h3 { font-size: 1.15rem; line-height: 1.3; }
+.shop-desc { margin: 0; color: var(--text-dim); font-size: 0.92rem; }
+.shop-indic { margin: 0; font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim); }
+.shop-indic strong { color: var(--gold); font-weight: 500; }
+.shop-zone { margin-top: auto; padding-top: 8px; }
+
+.shop-buttons, .shop-prix-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+
+.shop-btn {
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  color: var(--text);
+  border-radius: var(--radius);
+  padding: 9px 14px;
+  font: 500 0.88rem/1 var(--font-body);
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.shop-btn:hover { border-color: var(--gold); color: var(--gold); }
+.shop-btn:disabled { opacity: 0.5; cursor: default; }
+.shop-btn-oui, .shop-btn-envoyer { background: var(--gold); border-color: var(--gold); color: #14140f; }
+.shop-btn-oui:hover, .shop-btn-envoyer:hover { background: var(--gold-dim); border-color: var(--gold-dim); color: #14140f; }
+
+.shop-label { display: block; font-size: 0.88rem; margin-bottom: 8px; }
+.shop-input {
+  width: 90px;
+  background: var(--bg);
+  border: 1px solid var(--line-strong);
+  color: var(--text);
+  border-radius: var(--radius);
+  padding: 9px 10px;
+  font-family: var(--font-mono);
+  font-size: 1rem;
+}
+.shop-input:focus { outline: none; border-color: var(--gold-dim); }
+.shop-eur { font-family: var(--font-mono); color: var(--text-dim); }
+.shop-hint { margin: 8px 0 0; font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-dim); }
+.shop-msg { margin: 8px 0 0; font-family: var(--font-mono); font-size: 0.8rem; }
+.shop-msg.err { color: #e08a7a; }
+.shop-merci { margin: 0; font-family: var(--font-mono); font-size: 0.85rem; color: var(--gold); }
