@@ -58,7 +58,8 @@ function actuAnchor(a) {
     ["calendrier", "/calendrier", "Calendrier"],
     ["actus", "/actus", "Actus"],
     ["iss", "/wheretheiss", "ISS"],
-    ["articles", "/articles/", "Articles"]
+    ["articles", "/articles/", "Articles"],
+    ["shop", "/shop", "Boutique"]
   ];
   const links = NAV.map(([id, href, label]) =>
     `<a class="nav-link" href="${href}"${id === active ? ' aria-current="page"' : ""}>${label}</a>`
