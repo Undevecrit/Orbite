@@ -11,6 +11,14 @@
  */
 const PRODUITS = [
   {
+    id: "Sweat Space Lover",
+    titre: "Sweat Space Lover",
+    description: "Sweat avec impression SPACE LOVER au dos, écusson Orbite sur la poitrine, côté gauche.",
+    image: "/assets/shop/sweatsplover.jpeg",
+    prixIndicatif: 38,
+    prixMin: 35
+  },
+  {
     id: "Poster Andromède",
     titre: "Poster Andromède",
     description: "Poster en format A4 la galaxie la plus proche de nous, Andromède",
