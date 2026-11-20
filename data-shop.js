@@ -11,6 +11,14 @@
  */
 const PRODUITS = [
   {
+    id: "Interstellaire - Le mag",
+    titre: "Interstellaire - Le mag",
+    description: "Un abonnement mensuel pour un petit magazine en format A5 d'une trentaine de pages ! Idéal pour les passionnés ou simplement les curieux ! Orbite proposera un premier exemplaire test a prix réduit pour que vous puissiez faire votre choix.",
+    image: "/assets/shop/interstellaire.jpeg",
+    prixIndicatif: 14,
+    prixMin: 13,
+  },
+  {
     id: "Sweat Space Lover",
     titre: "Sweat Space Lover",
     description: "Sweat avec impression SPACE LOVER au dos, écusson Orbite sur la poitrine, côté gauche.",
