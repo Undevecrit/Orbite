@@ -11,12 +11,20 @@
  */
 const PRODUITS = [
   {
+    id: "T-shirt JDEPLE",
+    titre: "T-shirt « J'ai des étoiles plein les yeux »",
+    description: "T-shirt noir avec logo Orbite sur la poitrine a gauche; et texte « J'ai des étoiles plein les yeux » dans le dos.",
+    image: "assets/shop/IMG_7981.jpeg",
+    prixIndicatif: 29,
+    prixMin: 27.80
+  },
+  {
     id: "Interstellaire - Le mag",
     titre: "Interstellaire - Le mag",
     description: "Un abonnement mensuel pour un petit magazine en format A5 d'une trentaine de pages ! Idéal pour les passionnés ou simplement les curieux ! Orbite proposera un premier exemplaire test a prix réduit pour que vous puissiez faire votre choix.",
     image: "/assets/shop/interstellaire.jpeg",
     prixIndicatif: 14,
-    prixMin: 13,
+    prixMin: 13
   },
   {
     id: "Sweat Space Lover",
